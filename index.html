@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechHive</title>
     <!-- Font Awesome CSS -->
-    <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-    />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -21,77 +19,71 @@
 <body>
 
 
-    <header class="position-sticky top-0 py-2">
-  <nav class="navbar navbar-expand-lg">
-    <div class="container mx-auto px-2">
+    <header class="position-sticky top-0 py-2" data-aos="zoom-in" data-aos-duration="1000">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container mx-auto px-2">
 
-      <!-- LOGO -->
-      <a href="#hero-section" class=" logo navbar-brand fs-1 fw-bold text-decoration-none ">
-        <i data-lucide="zap" class="me-2 logo-icon"></i>
-        TechHive
-      </a>
+                <!-- LOGO -->
+                <a href="#hero-section" class=" logo navbar-brand fs-1 fw-bold text-decoration-none ">
+                  <i data-lucide="zap" class="me-2 logo-icon"></i>
+                  TechHive
+                </a>
+        
+                <!-- TOGGLER -->
+                <button class="bg-primary navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <!-- NAV LINKS -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4 align-items-center">
 
-      <!-- TOGGLER -->
-      <button class="bg-primary navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- NAV LINKS -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4 align-items-center">
-
-          <li class="nav-item">
-            <a class="nav-link navbar-hove" href="#hero-section">Home</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link navbar-hove" href="#features-section">Feature</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link navbar-hove" href="#testimonials">Testimonials</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link navbar-hove" href="#pricing">Pricing</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link navbar-hove" href="#contact">Contact</a>
-          </li>
-
-        </ul>
-      </div>
-
-    </div>
-  </nav>
-</header>
+                      <li class="nav-item">
+                        <a class="nav-link navbar-hove" href="#hero-section">Home</a>
+                      </li>
+                  
+                      <li class="nav-item">
+                        <a class="nav-link navbar-hove" href="#features-section">Feature</a>
+                      </li>
+                  
+                      <li class="nav-item">
+                        <a class="nav-link navbar-hove" href="#testimonials">Testimonials</a>
+                      </li>
+                  
+                      <li class="nav-item">
+                        <a class="nav-link navbar-hove" href="#pricing">Pricing</a>
+                      </li>
+                  
+                      <li class="nav-item">
+                        <a class="nav-link navbar-hove" href="#contact">Contact</a>
+                      </li>
+                  
+                    </ul>
+                </div>
+        
+            </div>
+        </nav>
+    </header>
 
     
     <section id="hero-section">
         <div class="container text-center">
-            <h1>Future Proof Your <span>Digital Success</span></h1>
-            <p>We engineer robust, scalable, and intelligent software solutions that drive growth and efficiency for leading enterprises worldwide.</p>
-            <button>Explore Features <i class="fa-solid fa-arrow-right-long"></i></button>
-            <button>Book A Consultaion</button>
+            <h1 data-aos="fade-down" data-aos-duration="1200">Future Proof Your <span>Digital Success</span></h1>
+            <p data-aos="fade-up" data-aos-duration="1200">We engineer robust, scalable, and intelligent software solutions that drive growth and efficiency for leading enterprises worldwide.</p>
+
+            <button data-aos="fade-up" data-aos-duration="1500">Explore Features <i class="fa-solid fa-arrow-right-long"></i></button>
+            <button data-aos="fade-up" data-aos-duration="1500">Book A Consultaion</button>
             
         </div>
     </section>
     
     <section id="features-section">
         <div class="container">
-            <h2>Core Capabilties</h2>
-            <p class="text-center mx-auto">Our solutions are built on a foundation of cutting-edge technology and proven engineering principles.</p>
+            <h2 data-aos="fade-down" data-aos-duration="1200">Core Capabilties</h2>
+            <p class="text-center mx-auto" data-aos="fade-up" data-aos-duration="1200">Our solutions are built on a foundation of cutting-edge technology and proven engineering principles.</p>
             <div class="hexagon-container">
-                <div class="hexagon">
-        <div class="hexagon-inner">
+                <div class="hexagon"  data-aos="zoom-in-up" data-aos-duration="1000">
+        <div class="hexagon-inner" >
             <i data-lucide="cloud-lightning" class="hexagon-icon"></i>
             <h3>Cloud Scalability</h3>
             <p>
@@ -100,7 +92,7 @@
         </div>
                 </div>
             
-                <div class="hexagon">
+                <div class="hexagon"  data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="hexagon-inner">
             <i data-lucide="shield-check" class="hexagon-icon"></i>
             <h3>Zero-Trust Security</h3>
@@ -110,7 +102,7 @@
         </div>
                 </div>
             
-                <div class="hexagon">
+                <div class="hexagon" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="hexagon-inner">
             <i data-lucide="bar-chart-3" class="hexagon-icon"></i>
             <h3>AI & Analytics</h3>
@@ -120,7 +112,7 @@
         </div>
                 </div>
             
-                <div class="hexagon">
+                <div class="hexagon" data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="hexagon-inner">
             <i data-lucide="tablet-smartphone" class="hexagon-icon"></i>
             <h3>Cross-Platform UX</h3>
@@ -130,7 +122,7 @@
         </div>
                 </div>
             
-                <div class="hexagon">
+                <div class="hexagon"  data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="hexagon-inner">
             <i data-lucide="git-branch" class="hexagon-icon"></i>
             <h3>DevOps Automation</h3>
@@ -140,7 +132,7 @@
         </div>
                 </div>
             
-                <div class="hexagon">
+                <div class="hexagon"  data-aos="zoom-in-up" data-aos-duration="1000">
         <div class="hexagon-inner">
             <i data-lucide="wrench" class="hexagon-icon"></i>
             <h3>24/7 Support</h3>
@@ -155,9 +147,9 @@
 
     <section id="testimonials">
         <div class="container">
-            <h2>What Our Clients Say</h2>
+            <h2 data-aos="fade-down" data-aos-duration="1200">What Our Clients Say</h2>
             
-            <div class="testimonial-wrapper position-relative py-5">
+            <div class="testimonial-wrapper position-relative py-5" data-aos="zoom-in" data-aos-duration="1200">
                 <!-- Slider Box -->
                 <div id="testimonial-box" class="testimonial-box mx-auto p-5 rounded-4">
                     <!-- JS injects testimonial here -->
@@ -184,9 +176,9 @@
         
     <section id="pricing">
         <div class="container">
-            <h2>Pricing Plan</h2>
-            <p class="mx-auto text-center">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
-            <div class="cards-container">
+            <h2 data-aos="fade-down" data-aos-duration="1200">Pricing Plan</h2>
+            <p class="mx-auto text-center" data-aos="fade-up" data-aos-duration="1200">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+            <div class="cards-container" data-aos="zoom-in" data-aos-duration="1200">
 
                 <div class="pricing-card p-4 rounded-4">
                     <h3>Starter Website</h3>
@@ -231,11 +223,11 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Get In Touch</h2>
-            <p class="mx-auto text-center">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+            <h2 data-aos="fade-down" data-aos-duration="1200">Get In Touch</h2>
+            <p class="mx-auto text-center" data-aos="fade-up" data-aos-duration="1200">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
             <div class="contact-container ">
                 <div>
-                    <form id="contactForm" class="contact-form" novalidate>
+                    <form id="contactForm" class="contact-form" novalidate data-aos="zoom-in-up" data-aos-duration="1200">
                     <div class="inputs-group">
                         <div>
                             <input type="text" id="name" maxlength="20" placeholder="Name">
@@ -275,7 +267,7 @@
                     </form>
                 </div>
                 
-                <div>
+                <div data-aos="zoom-in" data-aos-duration="1200">
                      <!-- Phone -->
                     <div class="info-card">
                       <div class="info-icon">
@@ -336,6 +328,11 @@
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
     <script>
         lucide.createIcons();
+    </script>
+    <!-- AOS JS CDN -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 
     <script src="./script.js"></script>

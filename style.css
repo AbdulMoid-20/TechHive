@@ -2,8 +2,8 @@
 :root {
     --primary-bg: #0A0F1F;
     --secondary-bg: #111827;
-    --primary-accent: #3c83f6; /* Electric Blue */
-    --accent-glow: #22D3EE;    /* Cyan Glow */
+    --primary-accent: #3c83f6; 
+    --accent-glow: #22D3EE;    
     --text-light: #F3F4F6;
     --text-muted: #9CA3AF;
     --card-bg: #1e3a8a33;
@@ -32,6 +32,7 @@ header {
     top: 0;
     z-index: 1000;
 }
+
 .logo , .logo-icon {
     color: var(--primary-accent);
 }
@@ -39,6 +40,7 @@ header {
 .logo:hover{
     color: var(--primary-accent);
 }
+
 .logo-icon {
     width: 2.5rem;
     height: 2.5rem;
@@ -654,6 +656,7 @@ form button:hover {
     transform: skew(-13deg) translatey(-10px);
     box-shadow: 0 12px 40px var(--primary-accent);
 }
+
 .info-icon {
     display: flex;
     justify-content: center;
