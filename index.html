@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHive</title>
+    <!-- Font Awesome CSS -->
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <header class="position-sticky top-0 py-2">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container mx-auto px-2">
+
+      <!-- LOGO -->
+      <a href="#hero-section" class=" logo navbar-brand fs-1 fw-bold text-decoration-none ">
+        <i data-lucide="zap" class="me-2 logo-icon"></i>
+        TechHive
+      </a>
+
+      <!-- TOGGLER -->
+      <button class="bg-primary navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAV LINKS -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4 align-items-center">
+
+          <li class="nav-item">
+            <a class="nav-link navbar-hove" href="#hero-section">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navbar-hove" href="#features-section">Feature</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navbar-hove" href="#testimonials">Testimonials</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navbar-hove" href="#pricing">Pricing</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link navbar-hove" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+    
+    <section id="hero-section">
+        <div class="container text-center">
+            <h1>Future Proof Your <span>Digital Success</span></h1>
+            <p>We engineer robust, scalable, and intelligent software solutions that drive growth and efficiency for leading enterprises worldwide.</p>
+            <button>Explore Features <i class="fa-solid fa-arrow-right-long"></i></button>
+            <button>Book A Consultaion</button>
+            
+        </div>
+    </section>
+    
+    <section id="features-section">
+        <div class="container">
+            <h2>Core Capabilties</h2>
+            <p class="text-center mx-auto">Our solutions are built on a foundation of cutting-edge technology and proven engineering principles.</p>
+            <div class="hexagon-container">
+                <div class="hexagon">
+        <div class="hexagon-inner">
+            <i data-lucide="cloud-lightning" class="hexagon-icon"></i>
+            <h3>Cloud Scalability</h3>
+            <p>
+                Elastic architecture designed for millions of users, leveraging serverless and container technologies for limitless growth.
+            </p>
+        </div>
+                </div>
+            
+                <div class="hexagon">
+        <div class="hexagon-inner">
+            <i data-lucide="shield-check" class="hexagon-icon"></i>
+            <h3>Zero-Trust Security</h3>
+            <p>
+                Implementing industry-leading encryption and decentralized identity management to protect sensitive data.
+            </p>
+        </div>
+                </div>
+            
+                <div class="hexagon">
+        <div class="hexagon-inner">
+            <i data-lucide="bar-chart-3" class="hexagon-icon"></i>
+            <h3>AI & Analytics</h3>
+            <p>
+                Integrating machine learning models to automate workflows and deliver actionable insights.
+            </p>
+        </div>
+                </div>
+            
+                <div class="hexagon">
+        <div class="hexagon-inner">
+            <i data-lucide="tablet-smartphone" class="hexagon-icon"></i>
+            <h3>Cross-Platform UX</h3>
+            <p>
+                Delivering seamless user experiences across desktop, mobile, and specialized devices.
+            </p>
+        </div>
+                </div>
+            
+                <div class="hexagon">
+        <div class="hexagon-inner">
+            <i data-lucide="git-branch" class="hexagon-icon"></i>
+            <h3>DevOps Automation</h3>
+            <p>
+                Accelerating time-to-market with CI/CD pipelines and infrastructure as code.
+            </p>
+        </div>
+                </div>
+            
+                <div class="hexagon">
+        <div class="hexagon-inner">
+            <i data-lucide="wrench" class="hexagon-icon"></i>
+            <h3>24/7 Support</h3>
+            <p>
+                Dedicated engineering teams providing constant monitoring, maintenance, and expert assistance.
+            </p>
+        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            
+            <div class="testimonial-wrapper position-relative py-5">
+                <!-- Slider Box -->
+                <div id="testimonial-box" class="testimonial-box mx-auto p-5 rounded-4">
+                    <!-- JS injects testimonial here -->
+                </div>
+
+                <!-- Previous Button -->
+                <button id="test-prev"
+                        class="testimonial-btn position-absolute start-0 top-50 translate-middle-y">
+                  <span><i data-lucide="chevron-left"></i></span>
+                </button>
+
+                <!-- Next Button -->
+                <button id="test-next"
+                        class="testimonial-btn position-absolute end-0 top-50 translate-middle-y">
+                  <span><i data-lucide="chevron-right"></i></span>
+                </button>
+
+                <!-- Dots -->
+                <div id="test-dots" class="d-flex gap-2 justify-content-center mt-4"></div>
+
+            </div>   
+        </div>
+    </section>
+        
+    <section id="pricing">
+        <div class="container">
+            <h2>Pricing Plan</h2>
+            <p class="mx-auto text-center">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+            <div class="cards-container">
+
+                <div class="pricing-card p-4 rounded-4">
+                    <h3>Starter Website</h3>
+                    <p class="price">$199</p>
+                    <ul class="list-unstyled">
+                        <li>3 Pages Website</li>
+                        <li>Responsive Design</li>
+                        <li>Basic SEO Setup</li>
+                        <li>Contact Form</li>
+                    </ul>
+                    <button onclick="window.open('https://wa.me/message/WCHMDF6XFWGJC1', '_blank')">Get Started</button>
+                </div>
+            
+                <div class="pricing-card p-4 rounded-4">
+                    <h3>Business Website</h3>
+                    <p class="price">$499</p>
+                    <ul class="list-unstyled">
+                        <li>6–10 Pages Website</li>
+                        <li>Modern UI/UX Design</li>
+                        <li>Speed Optimization</li>
+                        <li>Advanced SEO Setup</li>
+                    </ul>
+                    <button onclick="window.open('https://wa.me/message/WCHMDF6XFWGJC1', '_blank')">Get Started</button>
+                </div>
+            
+                <div class="pricing-card p-4 rounded-4">
+                    <h3>Premium Website</h3>
+                    <p class="price">$999</p>
+                    <ul class="list-unstyled">
+                        <li>Custom Web Application</li>
+                        <li>Admin Dashboard</li>
+                        <li>Database Integration</li>
+                        <li>Full SEO + Deployment</li>
+                    </ul>
+                    <button onclick="window.open('https://wa.me/message/WCHMDF6XFWGJC1', '_blank')">Get Started</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p class="mx-auto text-center">Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!</p>
+            <div class="contact-container ">
+                <div>
+                    <form id="contactForm" class="contact-form" novalidate>
+                    <div class="inputs-group">
+                        <div>
+                            <input type="text" id="name" maxlength="20" placeholder="Name">
+                            <i class="lni lni-user-4 "></i>
+                            <small class="text-danger d-none" id="nameError">Name is required</small>
+                        </div>
+                        
+                        <div>
+                            <input type="email" id="email" placeholder="Email">
+                            <i class="lni lni-envelope-1"></i>
+                            <small class="text-danger d-none" id="emailError">Enter a valid email</small>
+                        </div>
+                    </div>
+
+                    <div class="inputs-group">
+                        <div>
+                            <input type="tel" id="phone" minlength="11" placeholder="Phone">
+                            <i class="lni lni-telephone-1"></i>
+                            <small class="text-danger d-none" id="phoneError">Phone number is required</small>
+                        </div>
+
+                        <div>
+                            <input type="text" id="subject" placeholder="Subject">
+                            <i class="lni lni-text-format"></i>
+                            <small class="text-danger d-none" id="subjectError">Subject is required</small>
+                        </div>
+                    </div>
+
+                    <div>
+                        <textarea name="message" id="message" class="form-input" placeholder="Message" rows="6"></textarea>
+                        <i class="lni lni-message-3-text"></i>
+                        <small class="text-danger d-none" id="messageError">Message can't be empty</small>
+                    </div>
+
+                    <button type="submit"><i class="lni lni-telegram"></i> Send Message</button>
+
+                    </form>
+                </div>
+                
+                <div>
+                     <!-- Phone -->
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-telephone"></i>
+                      </div>
+                      <div class="info-text">
+                        0045939863784<br>
+                        +004389478327
+                      </div>
+                    </div>
+                
+                    <!-- Email -->
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-envelope"></i>
+                      </div>
+                      <div class="info-text">
+                        yourmail@gmail.com<br>
+                        admin@yourwebsite.com
+                      </div>
+                    </div>
+                
+                    <!-- Address -->
+                    <div class="info-card">
+                      <div class="info-icon">
+                        <i class="bi bi-geo-alt"></i>
+                      </div>
+                      <div class="info-text">
+                        John's House, 13/5 Road,<br>
+                        Sidney, United State Of America
+                      </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 TechHive. All rights reserved.</p>
+        </div>
+        <div>
+            <ul class="d-flex justify-content-center gap-4 list-unstyled">
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <!-- lucide -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
