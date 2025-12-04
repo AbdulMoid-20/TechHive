@@ -165,7 +165,7 @@ header {
 }
 
 /* Responsive Hero Section */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     #hero-section {
     padding-top: 8rem;
     }
@@ -305,7 +305,7 @@ header {
 }
 
 /* Responsive Features Section */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     #features-section {
         padding-top: 8rem;
     }
@@ -404,7 +404,7 @@ header {
 }
 
 /* Responsive Testimonials */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     #testimonials {
         padding-top: 8rem;
     }
@@ -522,7 +522,7 @@ header {
 }
 
 /* Responsive Pricing  Section */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     #pricing {
         padding-top: 8rem;
     }
@@ -542,6 +542,19 @@ header {
         margin-bottom: 2rem;
     }
 }
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .cards-container {
+        flex-direction: row;
+        align-items: center;
+    }
+    .pricing-card {
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+}
+
+
 
 /* Contact Section */
 #contact{
@@ -644,6 +657,7 @@ form button:hover {
     background: var(--secondary-bg);
     color: var(--text-light);
     box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    border-radius: 5px;
     border: 1px solid #1F6FEB22;
     transition: 0.3s;
     box-shadow: 0 10px 20px rgba(30, 115, 255, 0.4);
@@ -687,7 +701,7 @@ form button:hover {
 }
 
 /* Responsive Contact Section */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     #contact {
         padding-top: 8rem;
     }
@@ -719,6 +733,17 @@ form button:hover {
         margin-bottom: 2rem;
     }
 }
+
+@media (max-width: 768px) {
+    .contact-container >div:last-child{
+        width: 80%;
+    }
+    .info-card {
+        margin-bottom: 2.2rem;
+    }
+}
+
+
 
 /* Footer */
 footer {
