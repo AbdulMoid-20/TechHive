@@ -653,6 +653,7 @@ form button:hover {
     gap: 5rem;
     flex-wrap: wrap;
 }
+
 .info-card {
     background: var(--secondary-bg);
     color: var(--text-light);
